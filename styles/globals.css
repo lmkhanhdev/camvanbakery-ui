@@ -2,26 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(243 244 246);
+}
+
+select,
+textarea,
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+li {
+  max-width: max-content;
+  color: rgb(203 213 225);
+  margin-top: 1rem;
+}
+
+h3 {
+  font-weight: 500;
+  color: rgb(55 65 81);
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-black {
+  background-color: #222;
+}
+
+.btn-add-cart {
+  border: solid 1px rgb(161 98 7);
+}
+
+.grid-cart-md {
+  grid-template-columns: 1.2fr 0.8fr;
+}
+
+.grid-header {
+  grid-template-columns: 1fr 1.2fr 0.4fr;
+}
+
+.max-width {
+  max-width: 90px;
+}
+
+.max-height {
+  max-height: 90px;
+}
+
+.padding-cart {
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
 }
