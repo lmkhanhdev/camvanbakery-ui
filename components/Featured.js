@@ -43,13 +43,13 @@ export default function Featured({ product }) {
               <Link href={"/product/" + product._id}>
                 <Button
                   className=" bg-transparent text-lg text-white
-             border py-2 px-6"
+             border py-1 px-4 md:py-2 md:px-6"
                 >
                   Read more
                 </Button>
               </Link>
               <Button
-                className="text-lg py-2 px-6 bg-yellow-700 "
+                className="text-lg py-1 px-4 md:py-2 md:px-6 bg-yellow-700 "
                 onClick={addFeaturedToCart}
               >
                 <BiSolidCart size={20} className="mr-1" />

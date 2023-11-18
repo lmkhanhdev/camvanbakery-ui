@@ -89,7 +89,7 @@ export default function CartPage() {
         <Header />
         <Center>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-3">
-            <div className="bg-white rounded-lg p-7 col-span-1 md:col-span-2">
+            <div className="bg-white rounded-lg p-7 col-span-1 md:col-span-2 padding">
               <h2 className="text-3xl mb-8 font-extrabold">Cart</h2>
               {cartProducts?.length === 0 ? (
                 <h2 className="text-center text-lg font-medium text-gray-500">
@@ -109,7 +109,7 @@ export default function CartPage() {
                     {products.map((product) => (
                       <tr key={product._id}>
                         <td className="padding-cart">
-                          <div className="w-24 h-24 border rounded-lg">
+                          <div className="w-24 h-24 border rounded-lg display-cart">
                             <img
                               src={product.images[0]}
                               alt=""
@@ -121,7 +121,7 @@ export default function CartPage() {
                         <td className="padding-cart">
                           <Button
                             onClick={() => lessOfThisProduct(product._id)}
-                            className="bg-gray-300 px-3.5 text-black"
+                            className="bg-gray-300 px-2.5 md:px-3.5 text-black"
                           >
                             -
                           </Button>
@@ -133,7 +133,7 @@ export default function CartPage() {
                           </span>
                           <Button
                             onClick={() => moreOfThisProduct(product._id)}
-                            className="bg-gray-300 px-3 text-black"
+                            className="bg-gray-300 px-2 md:px-3 text-black"
                           >
                             +
                           </Button>

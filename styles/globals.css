@@ -61,3 +61,17 @@ a {
   padding-top: 10px;
   border-top: 1px solid #ccc;
 }
+
+@media (max-width: 600px) {
+  .display-cart {
+    display: none;
+  }
+
+  .padding {
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px 0;
+  }
+}

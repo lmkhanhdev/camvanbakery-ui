@@ -16,7 +16,7 @@ export default function ProductPage({ product }) {
       <Header />
       <Center>
         <div className="mt-16">
-          <div className="grid grid-cols-2 gap-10 py-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-3">
             <div className="bg-white rounded-lg p-7">
               <ProductImages images={product.images} />
             </div>
@@ -31,7 +31,7 @@ export default function ProductPage({ product }) {
                 </div>
                 <div>
                   <Button
-                    className="text-lg py-1.5 px-5 bg-yellow-700 "
+                    className="text-lg py-1.5 px-2 md:px-5 bg-yellow-700 "
                     onClick={() => addProduct(product._id)}
                   >
                     <BiSolidCart size={20} className="mr-1" />
