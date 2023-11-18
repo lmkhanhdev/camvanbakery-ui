@@ -15,11 +15,11 @@ export default function Sharing() {
           </div>
           <div className="flex flex-col justify-center items-center">
             <p className="my-10 text-gray-600 font-medium">
-              "Tôi là đầu bếp bánh ngọt tại đây, và niềm vui lớn nhất của tôi là
-              mang đến cho các bạn những trải nghiệm <br /> ngon miệng không
-              ngừng. Ở đây, từng chiếc bánh không chỉ là sản phẩm của sự sáng
-              tạo nghệ thuật <br /> và kỹ thuật nấu ăn, mà còn chứa đựng tình
-              yêu thấm đẫm và chân thành."
+              &quot;Tôi là đầu bếp bánh ngọt tại đây, và niềm vui lớn nhất của
+              tôi là mang đến cho các bạn những trải nghiệm <br /> ngon miệng
+              không ngừng. Ở đây, từng chiếc bánh không chỉ là sản phẩm của sự
+              sáng tạo nghệ thuật <br /> và kỹ thuật nấu ăn, mà còn chứa đựng
+              tình yêu thấm đẫm và chân thành.&quot;
             </p>
             <h2 className="text-3xl text-yellow-600 font-serif font-semibold italic">
               Cẩm Vân
