@@ -6,12 +6,16 @@ export default function ProductImages({ images }) {
   return (
     <>
       <div className="flex justify-center items-center">
-        <img src={activeImage} alt="" className="max-w-full max-h-56" />
+        <img
+          src={activeImage}
+          alt=""
+          className="max-w-full max-h-40 md:max-h-56"
+        />
       </div>
       <div className="flex gap-3 flex-grow-0 mt-3 justify-center">
         {images.map((image) => (
           <div
-            className={`h-16 w-16 p-1 cursor-pointer rounded-sm ${
+            className={`h-14 md:h-16 w-14 md:w-16 p-1 cursor-pointer rounded-sm ${
               image === activeImage ? "border" : ""
             }`}
             key={image}
