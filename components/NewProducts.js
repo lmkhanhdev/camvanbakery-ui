@@ -1,11 +1,12 @@
 import Center from "./Center";
-import ProductsGrid from "./ProductsGrid";
+import HeadTitle from "@/components/HeadTitle";
+import ProductsGrid from "@/components/ProductsGrid";
 
 export default function NewProducts({ products }) {
   return (
     <div>
       <Center>
-        <h2 className="text-3xl font-bold py-6">New Arrivals</h2>
+        <HeadTitle>Categories</HeadTitle>
         <ProductsGrid products={products} />
       </Center>
     </div>
