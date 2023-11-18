@@ -34,7 +34,7 @@ export default function ProductPage({ product }) {
                     className="text-lg py-1.5 px-2 md:px-5 bg-yellow-700 "
                     onClick={() => addProduct(product._id)}
                   >
-                    <BiSolidCart size={20} className="mr-1" />
+                    <BiSolidCart size={20} className="mr-0.5 md:mr-1" />
                     Add to card
                   </Button>
                 </div>
