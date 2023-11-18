@@ -3,8 +3,6 @@ import Center from "./Center";
 import HeadTitle from "@/components/HeadTitle";
 
 export default function CategoryList({ categories }) {
-  console.log(categories);
-
   return (
     <div>
       <Center>
