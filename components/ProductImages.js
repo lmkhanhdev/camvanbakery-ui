@@ -21,11 +21,7 @@ export default function ProductImages({ images }) {
             key={image}
             onClick={() => setActiveImage(image)}
           >
-            <img
-              src={image}
-              alt=""
-              className="overflow-hidden w-max h-max rounded-sm"
-            />
+            <img src={image} alt="" className="overflow-hidden rounded-sm" />
           </div>
         ))}
       </div>
