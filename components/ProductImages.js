@@ -24,7 +24,7 @@ export default function ProductImages({ images }) {
             <img
               src={image}
               alt=""
-              className="overflow-hidden w-min h-min object-cover rounded-sm"
+              className="overflow-hidden w-max h-max rounded-sm"
             />
           </div>
         ))}
